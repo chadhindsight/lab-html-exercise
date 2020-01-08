@@ -45,3 +45,17 @@ form{
   justify-content: center; 
   background-color: rgba(232,217,217,.3);
 }
+
+/* See Plans button */
+.plans {
+  background-color: #FB3B49;
+  text-decoration: none;
+  height: 600px;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+/* Join for free button*/
+.join{
+  text-decoration: none;
+  color: black;
+}
