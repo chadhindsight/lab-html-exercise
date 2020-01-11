@@ -17,11 +17,18 @@ header > div {
 nav {
   width: 600px;
 }
-.header-div-2 {
-  position: relative;
-  bottom: 300px;
+
+.header-div-2 img {
+   height: 35%;
 }
 
+header form{
+  width: 55%;
+}
+header div:nth-child(2) {
+  height: 8.5%;  
+}
+ 
 nav ul {
   list-style: none;
   display: flex;
@@ -38,13 +45,30 @@ nav a {
   width: 20px;
   margin-right: 1rem;
 }
-#search-button {
-  background-color: ;
-}
+
 /* Form */
-form{
-    background-color: rgba(0,0,0,.05);    
+form input{
+  background-color: rgba(0,0,0,.05); 
+  width: 80%;  
 }
+header-div-2 {
+  width: 500px;
+  flex-direction: row;
+}
+form img {
+  background-color: rgba(0,0,0,.05);
+  margin-right: -0.3rem;
+}
+.header-buttons {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.808);
+  background-color: white;
+}
+ 
+.header-buttons :nth-child(1) {
+  box-shadow: 8px 8px 0 rgba(150, 161, 159, 0);
+}
+
 #search-button {
   background-color: #fb3e44;
   color: white;
@@ -80,7 +104,6 @@ h2{
 .plans {
   background-color: #FB3B49;
   text-decoration: none;
-  height: 600px;
   color: white;
   box-shadow: 8px 8px 0 rgba(48, 30, 31, 0.2);
    margin-right: 2.6rem;
@@ -92,3 +115,30 @@ h2{
   color: black;
   margin-left: 2.6rem;
 }
+
+/*//////////////SECTION 2///////////////*/
+.garbage {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3{
+  font-size: 2.2rem;
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  margin: 2rem 5.4rem;
+}
+#article-2{
+  font-style: italic;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+#section-2 img {
+   height: 12.5rem;
+   width: 21.6rem;
+   margin-top: 1.3rem;
+ }
+ /*//////////////SECTION 3///////////////*/
