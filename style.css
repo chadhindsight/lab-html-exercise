@@ -158,10 +158,9 @@ h3{
   height: 1.7rem;
   width: 1.8rem;
 }
- 
-.features p{
-  /* font-size: 1rem; */
-}
+ .features p {
+   font-weight: bold;
+ }
 
 #org-button{
   text-decoration: none;
