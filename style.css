@@ -155,12 +155,12 @@ h3{
 }
 
 .features img{
-  height: 0.7rem;
-  width: 0.8rem;
+  height: 1.7rem;
+  width: 1.8rem;
 }
  
 .features p{
-  font-size: 0.4rem;
+  /* font-size: 1rem; */
 }
 
 #org-button{
@@ -168,12 +168,6 @@ h3{
   box-shadow: 8px 8px 0 rgba(128,83,35,.2);
   background-color: black;
   color: white;
-  width: 600px;
-  margin-left: 24%;
-}
-
-#org-button a {
-  text-decoration: none;
-  color: white;
-  margin-left: 40%;
+  margin-left: 46.5%;
+  width: 100%;
 }
